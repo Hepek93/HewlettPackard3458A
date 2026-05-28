@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hp3458a"
-version = "0.1.0"
+version = "0.1.1"
 authors = [{name = "Đorđe Novaković", email = "djordjenovakovic@uns.ac.rs"}]
 description = "An unofficial Pythonic interface for HP3458A DMM using pyvisa"
 readme = "README.md"
@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/Hepek93/TimeElectronics5025"
+"Homepage" = "https://github.com/Hepek93/HewlettPackard3458A"
 
 [tool.setuptools]
 packages = ["hp3458a"]
