@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hp3458a"
+version = "0.1.0"
+authors = [{name = "Đorđe Novaković", email = "djordjenovakovic@uns.ac.rs"}]
+description = "An unofficial Pythonic interface for HP3458A DMM using pyvisa"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pyvisa-py>=0.5.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Hepek93/TimeElectronics5025"
+
+[tool.setuptools]
+packages = ["hp3458a"]
