@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/hp3458a.svg)](https://pypi.org/project/hp3458a/)
+
 # HP3458A Python Library (Unofficial)
 
 A Pythonic interface for controlling the **Keysight / HP 3458A 8½-Digit Digital Multimeter** using `pyvisa`.
